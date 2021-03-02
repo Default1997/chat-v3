@@ -1,0 +1,64 @@
+#chat {  
+    margin:0 auto;
+    position: relative;
+    width: 1140px;
+    height: 670px;
+    overflow: auto;
+}
+
+#chat_form{
+    position: relative;
+    margin:0 auto;
+}
+
+#chat::-webkit-scrollbar {
+    width: 0px;
+}
+
+#users_list{
+    position: absolute;
+    /*background: pink;*/
+    left: 0;
+    /*margin: 100px -300px;*/
+}
+
+#chat div{
+    border-radius: 20px;
+}
+
+#chat p{
+    padding-left: 30px; 
+    padding-right: 30px;   
+    padding-top: 5px;
+}
+
+#bannedMessagesList{
+    position: absolute;
+    right: 0;
+}
+
+#bannedMessagesList td{
+    max-width: 100px;
+}
+
+body{
+    word-wrap: break-word;
+}
+
+table td{
+    /*word-wrap: break-word;*/
+    max-width: 165px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table{
+    /*border: 3px;*/
+    background: #8FBC8F;
+
+}
+
+#manageMessagesButton{
+
+
+}
